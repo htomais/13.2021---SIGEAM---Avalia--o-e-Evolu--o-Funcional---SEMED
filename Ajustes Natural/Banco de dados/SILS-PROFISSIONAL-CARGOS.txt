@@ -1,0 +1,31 @@
+SILS-PROFISSIONAL-CARGOS
+
+ T L DB Name                              F Leng  S D Remark             
+- - -- --------------------------------  - ----  - - ------------------  
+   1 XX PC-CODIGO                         N  4.0  N D                                                        
+   1 XX PC-REDE                           A    1  N   REDE DE ENSINO     
+   1 XX PC-COD-MUNICIPIO                  N  5.0    
+   1 XX PC-TIPO-CARGO                     N  1.0  N                      
+*      1-PROFESSOR  2-PEDAGOGO     
+*                  
+   1 XX PC-COD-CARGO                      N  7.0  N   LLCCCCC 
+*      L-LETRA      C-CARGO                                                                       
+*
+   1 XX PC-TIPO-PROFISSIONAL              N    1  N   
+*      1-MAGISTERIO 2-TEC-ADMINISTRATIVO
+*                                                                                                
+   1 XX PC-SITUACAO                       N  1.0  N                      
+*      1-ATIVO      2-INATIVO                                         
+*                                                                       
+   1 XX PC-DATA-INC                       N  8.0  N   AAAAMMDD                                                               
+   1 XX PC-OPERADOR-INC                   A   11  N                      
+   1 XX PC-DATA-ALT                       N  8.0  N   AAAAMMDD                                                                 
+   1 XX PC-OPERADOR-ALT                   A   11  N                      
+ *                                                                       
+   1 XX PC-REDE-MUN-PROFI-CARGO           A   14  N S                    
+ *        -------- SOURCE FIELD(S) -------                               
+ *        PC-REDE(1-1)                                                   
+ *        PC-COD-MUNICIPIO(1-5)                                           
+ *        PC-TIPO-PROFISSIONAL(1-1)                                         │
+ *        PC-COD-CARGO(1-7)                                              
+                              
