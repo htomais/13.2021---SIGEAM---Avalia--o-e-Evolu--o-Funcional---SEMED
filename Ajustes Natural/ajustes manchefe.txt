@@ -1,5 +1,0 @@
-1 - carregar código do município pelo perfil
-2 - validação: permitir somente uma função ativa por local,  caso contrário emitir mensagem: Já existe uma função ativa para o local de lotação
-para validar utilizar SP-SIT-LOCAL-FUN
-3 - quando executar exonera, ao retornar resetar os campos nome e matrícula
-4 - validar data início na nomeação com data início de histórico (não permitir datas no periodo já cadastrado)

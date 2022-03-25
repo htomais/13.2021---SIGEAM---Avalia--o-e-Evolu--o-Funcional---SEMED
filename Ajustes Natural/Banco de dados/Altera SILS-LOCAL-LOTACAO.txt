@@ -1,6 +1,0 @@
-Solicito criar campo abaixo na view SILS-LOCAL-LOTACAO em ambiente adabas de desenvolvimento, homologação e produção
-
- T L DB Name                              F Leng  S D Remark             
- - - -- --------------------------------  - ----  - - ------------------
-  1 XX LL-COD-LOC-SUP-HIERARQ             N  5.0  N   LOCAL SUPERIOR      
-              
